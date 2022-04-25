@@ -45,7 +45,6 @@ const ListBucket = () => {
                                 <td>{bucket.CreationDate}</td>
                                 <td>
                                     <Link to={`/s3/list/${bucket.Name}`} className="btn btn-warning m-1">List Files</Link>
-                                    <Link to={`/s3/upload/${bucket.Name}`} className="btn btn-warning m-1">Upload Files</Link>
                                     <button type="button" className="btn btn-danger" onClick={() => deleteBucket(bucket.Name)}>Delete</button>
                                 </td>
                             </tr>
