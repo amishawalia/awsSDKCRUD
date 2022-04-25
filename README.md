@@ -10,6 +10,7 @@ sudo docker pull amishainnogeeks/sdkbackend
 Then to make container out of it use 
 sudo docker run -p 3000:3000 --name <container name>  amishainnogeeks/sdkfrontend  for  client side app
 sudo docker run --name  <container name> -p 3001:3001 -e AWS_ACCESS_KEY_ID=<key> -e AWS_SECRET_ACCESS_KEY=<key> amishainnogeeks/sdkbackend
+Then Select the instance, in details go to the securtiy tab.Select the security group.Edit the inbound rules and add port 3000 & 3001 and SAVE.  
 Your app will be running if you will fill the aws credentials in the last command!
 
 # Runs the app in the development mode.
