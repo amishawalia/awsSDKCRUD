@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3000/ec2";
+const baseUrl = "http://localhost:3001/ec2";
 const headers = {
   "Content-Type": "application/json",
 };
